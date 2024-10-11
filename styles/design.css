@@ -141,7 +141,7 @@ nav {
     /* padding: 0px 100px 5px 350px; */
 }
 
-/* ---------------- */
+
 /* skills related styles  */
 
 
@@ -161,4 +161,64 @@ nav {
 
 .skill-description {
     color: #757575;
+}
+
+/* Finish Part */
+.finish {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../img/handshake.jpg');
+    width: 100%;
+    max-width: 1170px;
+    margin-left: 6%;
+}
+
+.finish-content {
+    text-align: center;
+    padding-top: 20px;
+    color: #FFF;
+}
+
+.finish-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.finish-description {
+    padding-left: 247px;
+    padding-top: 0px;
+    text-align: center;
+    width: 676px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.submitOp {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 175px;
+    gap: 24px;
+}
+.btn{
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    width: 120px;
+    height: 57px;
+}
+.box {
+    color: rgba(19, 19, 24, 0.50);
+    border: none;
+    border-radius: 8px;
+    width: 548px;
+    height: 57px;
+    font-size: 20px;
+    flex-shrink: 0;
 }
